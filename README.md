@@ -18,16 +18,14 @@ Ktor Client – For making network requests
 
 🔧 Implementations
 
-The project makes use of the following Ktor Client dependencies for networking and JSON serialization:
-
-ktor.client.core
-
-ktor.client.content.negotiation
-
-ktor.serialization.kotlinx.json
-
-ktor.client.serialization
+The project makes use of the  Ktor Client dependencies for networking and JSON serialization:
 
 📸 Screenshots
 
 Here’s a glimpse of the KMP Weather App in action:
+<p align = "center">
+<img alt="GIF" src="https://github.com/Rakeshraki-124/KMP_Weather_App/blob/main/kmpWheather1.png" width="30%">
+<img alt="GIF" src="https://github.com/Rakeshraki-124/KMP_Weather_App/blob/main/kmpWheather2.png" width="30%">
+<img alt="GIF" src="https://github.com/Rakeshraki-124/KMP_Weather_App/blob/main/kmpWeather3.png" width="30%">
+</p>
+
