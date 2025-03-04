@@ -86,13 +86,26 @@ fun HomeScreenUI() {
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             Text(
-                                text = weather.name.toString(),
+                                text = "City: ${weather.name}",
                                 fontSize = 24.sp,
                                 fontWeight = FontWeight.Bold
                             )
                             Spacer(modifier = Modifier.height(8.dp))
+
                             Text(
                                 text = "Temperature: ${weather.main?.temp}°C",
+                                fontSize = 18.sp
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+
+                            Text(
+                                text = "Humidity: ${weather.main?.humidity}%",
+                                fontSize = 18.sp
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+
+                            Text(
+                                text = "Pressure: ${weather.main?.pressure} hPa",
                                 fontSize = 18.sp
                             )
                             Spacer(modifier = Modifier.height(8.dp))

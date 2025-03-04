@@ -14,7 +14,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun App() {
     MaterialTheme {
 
-        HomeScreenUI()
+        HomeScreenUITest()
 
 
 //        val viewModel = remember { HomeScreenViewModel() }
